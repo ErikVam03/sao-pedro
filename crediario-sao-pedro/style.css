@@ -5,3 +5,12 @@
 .tag.available,.status.available{background:#e7f5ec;color:#17633b}
 .tag.last,.status.last{background:#fff0df;color:#965316}
 .tag.sold,.status.sold{background:#fbe5e5;color:#a83c3c}
+
+/* Modal de produtos no celular: imagem e informações em blocos separados */
+@media (max-width:700px){
+  .modal-grid{display:flex;flex-direction:column}
+  .modal-image{height:auto;min-height:0;display:block;overflow:hidden}
+  .modal-image img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+  .modal-details{position:relative;padding:26px 20px 30px}
+  .modal-details .eyebrow{display:block}
+}
