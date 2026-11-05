@@ -1,0 +1,13 @@
+CREDIÁRIO SÃO PEDRO — PAINEL ADM
+
+1. No Supabase do Crediário São Pedro, abra SQL Editor e execute o arquivo IMPORTAR-PRODUTOS.sql (todo o conteúdo). Execute apenas na configuração inicial.
+2. Confirme que os 105 produtos aparecem na tabela public.produtos.
+3. Abra admin.html por um servidor local (VS Code Live Server) ou publique o site completo no Netlify.
+4. Faça login com uma das duas contas já cadastradas em auth.users e public.admins.
+5. Edite quantidades reais: a importação usa 0 para itens marcados esgotados e 1 provisório para os demais, pois os PDFs não fornecem quantidades completas. CONFIRA antes de publicar.
+6. Os produtos antigos mantêm as imagens locais da pasta imagens/. Fotos novas enviadas pelo painel vão para o bucket produtos do Supabase.
+7. Para o WhatsApp, edite WHATSAPP_DA_LOJA no início de script.js. Configure URL_DO_SITE após publicar.
+8. O catálogo usa dados do Supabase quando há produtos cadastrados e recorre aos dados locais quando o banco ainda está vazio ou inacessível. ATENÇÃO: se o banco falhar, o fallback local pode exibir informações antigas; para operação comercial definitiva, remova o fallback após confirmar a migração.
+9. A chave publicável em supabase-config.js é pública; NUNCA coloque secret/service_role no site.
+10. Recomenda-se desativar cadastro público em Authentication > Providers > Email, pois apenas dois administradores usarão o painel.
+11. Para evitar que produtos ocultos reapareçam em falhas de conexão, configure monitoramento e retire o fallback estático depois da primeira importação.

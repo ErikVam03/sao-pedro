@@ -1,0 +1,23 @@
+CREDIÁRIO SÃO PEDRO — CATÁLOGO DIGITAL
+
+1) Abra index.html no navegador para visualizar a loja. Não precisa instalar nada.
+2) Para configurar o WhatsApp, abra script.js no VS Code.
+   No início do arquivo, substitua:
+      const WHATSAPP_DA_LOJA = '';
+   por exemplo:
+      const WHATSAPP_DA_LOJA = '5598999999999';
+   Use 55 + DDD + número, sem espaços, traços ou parênteses.
+3) Publique TODOS os arquivos e a pasta imagens juntos no Netlify.
+4) Depois de publicar, no mesmo script.js, preencha URL_DO_SITE com a URL HTTPS do site.
+   Exemplo: const URL_DO_SITE = 'https://seu-site.netlify.app';
+   Isso faz o link da foto do móvel aparecer na mensagem do WhatsApp.
+5) Para editar preços, nomes, avisos e estoque, modifique o arquivo produtos.js.
+   Os dados também estão disponíveis em produtos.json como referência.
+
+IMPORTANTE
+- A foto é enviada como LINK na mensagem do WhatsApp, não como anexo automático.
+- Os valores e status foram transcritos dos PDFs fornecidos. Confirme estoque e valores antes de divulgar.
+- Alguns produtos possuem variantes esgotadas e outras não; por cautela, sinalizamos para confirmar.
+- Itens sem preço no PDF aparecem como 'Consulte o preço'.
+- As imagens são reproduções das páginas do catálogo enviado, incluindo textos impressos nelas.
+- As informações podem estar desatualizadas. O site não altera estoque automaticamente.

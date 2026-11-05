@@ -1,0 +1,14 @@
+CREDIÁRIO SÃO PEDRO — INDICADORES DE ESTOQUE
+
+Catálogo público:
+- Quantidade 0: Esgotado
+- Quantidade 1: Última unidade!
+- Quantidade 2 ou mais: Disponível
+
+As quantidades são lidas do Supabase, quando a consulta funciona.
+Se o Supabase não responder, o catálogo ainda usa os dados locais de fallback, que podem estar desatualizados.
+
+Arquivos alterados: script.js e style.css.
+Fotos, bordas vermelhas, preços, painel ADM e SQL preservados.
+
+Antes de publicar, confira as quantidades reais no painel ADM.

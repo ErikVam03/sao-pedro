@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#603d2a">
+    <meta name="description"
+        content="Catálogo de móveis do Crediário São Pedro. Escolha seus móveis e consulte pelo WhatsApp.">
+    <title>Crediário São Pedro | Catálogo de Móveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topbar">Seu lar merece um toque especial <span>✦</span> Atendimento direto pelo WhatsApp</div>
+    <header class="header wrap"><a class="brand" href="#inicio" aria-label="Crediário São Pedro"><span
+                class="brand-icon">SP</span><span><strong>CREDIÁRIO<br>SÃO PEDRO</strong><small>Móveis &
+                    decoração</small></span></a>
+        <nav><a href="#catalogo">Produtos</a><a href="#sobre">Sobre a loja</a></nav><a class="header-contact"
+            id="whatsHeader" href="#contato">Fale conosco ↗</a>
+    </header>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <div class="eyebrow">✦ BEM-VINDO AO NOSSO CATÁLOGO</div>
+                    <h1>Seu lar mais bonito começa <em>aqui.</em></h1>
+                    <p>Encontre móveis para cada cantinho da sua casa. Explore nosso catálogo e fale diretamente com a
+                        gente para tirar suas dúvidas.</p>
+                    <div class="hero-actions"><a class="btn btn-primary" href="#catalogo">Explorar móveis
+                            <span>↗</span></a><a class="btn btn-outline" href="#sobre">Conheça a loja</a></div>
+                    <div class="hero-metrics">
+                        <div><strong id="countHero">+100</strong><span>Modelos no catálogo</span></div>
+                        <div><strong>11</strong><span>Fabricantes</span></div>
+                        <div><strong>100%</strong><span>Atendimento humano</span></div>
+                    </div>
+                </div>
+                <div class="hero-art">
+                    <div class="hero-visual"><img src="imagens/produto-001.webp"
+                            alt="Móvel do catálogo do Crediário São Pedro"><span class="hero-sticker">Sua
+                            casa,<br><b>seu estilo.</b></span></div>
+                    <div class="floating-note">✦ Qualidade e aconchego para seu lar</div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits wrap">
+            <div>✧ <span><b>Escolha com calma</b><small>Veja todos os modelos</small></span></div>
+            <div>▧ <span><b>Variedade de móveis</b><small>Para vários ambientes</small></span></div>
+            <div>♡ <span><b>Atendimento próximo</b><small>Converse pelo WhatsApp</small></span></div>
+        </section>
+        <section class="catalog-section" id="catalogo">
+            <div class="wrap">
+                <div class="section-heading">
+                    <div><span class="eyebrow">ESCOLHA SEU FAVORITO</span>
+                        <h2>Nosso catálogo <i>de móveis</i></h2>
+                        <p>Encontre o móvel ideal e consulte disponibilidade e condições.</p>
+                    </div>
+                    <div class="total" id="resultCount"></div>
+                </div>
+                <div class="filters"><label class="search"><span>⌕</span><input id="search" type="search"
+                            placeholder="Busque por nome ou modelo..." autocomplete="off"></label><select id="category"
+                        aria-label="Filtrar por categoria">
+                        <option value="">Todas as categorias</option>
+                    </select><select id="brand" aria-label="Filtrar por fabricante">
+                        <option value="">Todos os fabricantes</option>
+                    </select><select id="sort" aria-label="Ordenar produtos">
+                        <option value="default">Ordenar: catálogo</option>
+                        <option value="asc">Menor preço</option>
+                        <option value="desc">Maior preço</option>
+                        <option value="name">Nome A–Z</option>
+                    </select></div>
+                <div class="chips" id="chips"></div>
+                <div class="products" id="products" aria-live="polite"></div>
+                <div class="empty" id="empty" hidden>Nenhum móvel encontrado. Experimente outra busca.</div>
+                <div class="more-wrap"><button class="btn btn-outline" id="more" type="button">Ver mais produtos
+                        ↓</button></div>
+            </div>
+        </section>
+        <section class="about" id="sobre">
+            <div class="wrap about-grid">
+                <div><span class="eyebrow">SOBRE NÓS</span>
+                    <h2>Seu próximo móvel está a um clique.</h2>
+                    <p>O Crediário São Pedro reúne diferentes modelos de móveis em um catálogo simples e prático.
+                        Escolha o que combina com você e entre em contato para saber mais.</p><a class="btn btn-primary"
+                        id="whatsAbout" href="#contato">Conversar no WhatsApp ↗</a>
+                </div>
+                <div class="about-card"><span>✦</span>
+                    <h3>Feito para facilitar sua escolha</h3>
+                    <p>Fotos, modelos, valores informados no catálogo e atendimento personalizado — tudo em um só lugar.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap footer-grid">
+            <div class="footer-name">CREDIÁRIO <b>SÃO PEDRO</b><small>Móveis & decoração</small></div>
+            <p>Transformando escolhas em lares mais aconchegantes.</p><a href="#inicio">Voltar ao topo ↑</a>
+        </div>
+        <div class="wrap foot-bottom">© <span id="year"></span> Crediário São Pedro. Valores e disponibilidade sujeitos
+            a confirmação.</div>
+    </footer>
+    <div class="modal" id="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="close"
+                type="button" id="close" aria-label="Fechar">×</button>
+            <div class="modal-grid">
+                <div class="modal-image"><img id="modalImg" alt="Imagem do produto"></div>
+                <div class="modal-details"><span class="eyebrow" id="modalBrand"></span>
+                    <h2 id="modalTitle"></h2>
+                    <div class="modal-price" id="modalPrice"></div>
+                    <div id="modalStatus"></div>
+                    <div class="divider"></div>
+                    <h3>Sobre este produto</h3>
+                    <p id="modalDesc"></p>
+                    <ul id="modalNotes"></ul>
+                    <p class="fine">Consulte cores, estoque, entrega e condições diretamente com a loja.</p><a
+                        id="modalWhats" class="btn btn-primary modal-whats" target="_blank" rel="noopener noreferrer">☏
+                        Consultar pelo WhatsApp ↗</a>
+                    <p class="fine" id="whatsTip"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="supabase-config.js"></script>
+    <script src="produtos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
