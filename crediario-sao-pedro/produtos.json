@@ -1458,5 +1458,362 @@
     "imagem": "imagens/produto-105.webp",
     "origem": "ESTOQUE CREDIARIO - PATRIMAR - TUBOARTE.pdf",
     "pagina": 39
+  },
+  {
+    "id": 106,
+    "nome": "BIC ARO 12",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas infantis",
+    "preco": 550.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-106.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 107,
+    "nome": "BIC ARO 16",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas infantis",
+    "preco": 1100.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-107.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 108,
+    "nome": "BIC ARO 16 BABY LUX",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas infantis",
+    "preco": 1300.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-108.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 109,
+    "nome": "BIC ARO 20 CHARMY LHAMA / EVOLUTION STREET",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas",
+    "preco": 1300.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-109.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 110,
+    "nome": "BIC ARO 20 EVOLUTION STREET",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas",
+    "preco": 1200.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-110.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 111,
+    "nome": "BIC ARO 26 EXECUTIVA",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas",
+    "preco": 1900.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-111.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 112,
+    "nome": "BIC ARO 26 DIYA FREIO V-BRAKE",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas",
+    "preco": 1900.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-112.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 113,
+    "nome": "BIC ARO 26 LEGACY MASC",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas",
+    "preco": 1400.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-113.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 114,
+    "nome": "BIC ARO 29 TN-21",
+    "marca": "A CONFIRMAR",
+    "categoria": "Bicicletas",
+    "preco": 2500.0,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [],
+    "imagem": "imagens/produto-114.webp",
+    "origem": "Novas fotos enviadas",
+    "pagina": null
+  },
+  {
+    "id": 115,
+    "nome": "CONJ. BOX DAKOTA 198x158x58",
+    "marca": "TOPÁZIO",
+    "categoria": "Colchões e camas box",
+    "preco": 2900,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-115.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 2
+  },
+  {
+    "id": 116,
+    "nome": "CONJ. BOX DAKOTA 198x200x58",
+    "marca": "TOPÁZIO",
+    "categoria": "Colchões e camas box",
+    "preco": 3800,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-116.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 3
+  },
+  {
+    "id": 117,
+    "nome": "UNIBOX CAIRO 1.98X1.58X0,56",
+    "marca": "TOPÁZIO",
+    "categoria": "Colchões e camas box",
+    "preco": 2400,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-117.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 4
+  },
+  {
+    "id": 118,
+    "nome": "CAMA GOLD LUXO 1.58",
+    "marca": "SOFTFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 3800,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-118.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 6
+  },
+  {
+    "id": 119,
+    "nome": "CAMA ROYAL 1.58",
+    "marca": "SOFTFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 3300,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-119.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 7
+  },
+  {
+    "id": 120,
+    "nome": "CAMA ROYAL 2X2",
+    "marca": "SOFTFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 3900,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-120.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 7
+  },
+  {
+    "id": 121,
+    "nome": "GLADIADOR LUXO",
+    "marca": "SOFTFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 2000,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-121.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 8
+  },
+  {
+    "id": 122,
+    "nome": "GLADIADOR PLUS E DARK PLUS",
+    "marca": "SOFTFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 2200,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-122.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 9
+  },
+  {
+    "id": 123,
+    "nome": "CAMA PARIS PLUS",
+    "marca": "SOFTFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 2300,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-123.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 10
+  },
+  {
+    "id": 124,
+    "nome": "GLADIADOR SOLTEIRO",
+    "marca": "SOFTFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 1300,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-124.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 11
+  },
+  {
+    "id": 125,
+    "nome": "CAMA CAYENNE 2X2",
+    "marca": "UMAFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 4800,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-125.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 13
+  },
+  {
+    "id": 126,
+    "nome": "CAMA MADRI 1.58X2.00",
+    "marca": "UMAFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 3800,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-126.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 14
+  },
+  {
+    "id": 127,
+    "nome": "CAMA MADRI 2X2",
+    "marca": "UMAFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 4800,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-127.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 14
+  },
+  {
+    "id": 128,
+    "nome": "CAMA BELLAGIO 1.58",
+    "marca": "UMAFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 3900,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-128.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 15
+  },
+  {
+    "id": 129,
+    "nome": "CAMA BELLAGIO 2X2",
+    "marca": "UMAFLEX",
+    "categoria": "Colchões e camas box",
+    "preco": 4900,
+    "esgotado": false,
+    "ultimo": false,
+    "observacoes": [
+      "Imagem meramente ilustrativa",
+      "Estoque a confirmar"
+    ],
+    "imagem": "imagens/produto-129.webp",
+    "origem": "ESTOQUE - COLCHÕES.pdf",
+    "pagina": 15
   }
 ]
